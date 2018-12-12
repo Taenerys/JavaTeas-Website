@@ -1,0 +1,378 @@
+@charset "UTF-8";
+/* CSS Document */
+#home-page{
+	margin: 0px;
+}
+
+#home-page p{
+	font-family: Yellowtails;
+	font-size: 14px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 20px; 
+}
+
+header{
+	background-color: #FF8E41;
+	text-align: center;
+	overflow: auto;
+	padding: 10px 16px;
+}
+
+.logo {
+	width: 500px;
+}
+
+#top-nav{
+	background-color: #402310;
+	width: 100%;
+  	overflow: hidden;
+}
+
+#top-nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+	padding: 10px 0px 10px 0px;
+    text-decoration: none;
+    font-size: 17px;
+  	width: 25%; 
+	font-family: 'Concert One', cursive;
+}
+
+#top-nav a:hover{
+	background-color: black;
+}
+
+#images{
+	text-align: center;
+	width: 100%;
+}
+
+#images td{
+	font-size: 20px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
+#images img{
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+    padding: 5px;
+    width: 250px;
+	height: 200px;
+}
+
+#images img:hover {
+    box-shadow: 0 0 2px 1px #FF8E41;
+}
+
+.coffee-shop-background{
+	width: 100%;
+	height: 550px;
+}
+
+main{
+	background-color: white;
+	margin: 0px 0px 50px 0px;
+}
+
+.col-4{
+	float:left;
+	width: 33.33%;
+	font-family: 'Concert One', cursive;
+}
+
+footer{
+	background-color: #FF8E41;
+	color: #402310;
+	width: 100%;
+	overflow:auto;
+	text-align: center;
+	border-top-style:dashed;
+	border-bottom-style: solid;
+	border-color: black;
+}
+
+aside{
+	width: 33.3%;
+	float: left;
+}
+
+aside h3{
+	font-family: 'Concert One', cursive;
+}
+
+.form{
+	text-align: center;
+}
+
+form{
+	display: block;
+}
+
+#submit {
+    background-color: #402310;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: white;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+
+#submit:hover {
+    border: none;
+    background: #FF8E41;
+    box-shadow: 0px 0px 1px #402310;
+}
+
+h1{
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Lobster', cursive;
+}
+
+h2{
+	text-align: center;
+}
+
+figure{
+	display: block;
+}
+
+.form-plus{
+	float: right;
+	width: 50%;
+}
+
+.form{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 50px;
+}
+
+#team {
+    width: 75%;
+    margin: auto;
+    background-color:#FFF;
+    overflow:auto;
+}
+
+.box {
+    width:300px;
+    margin:20px;
+    padding:20px;
+    background-color:#FF8E41;
+    float:left;
+}
+
+.box {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+
+.overlay1{
+	font-family: 'Montserrat', sans-serif;
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(64, 35, 16);
+  background: rgba(64,35,16, 0.8);; 
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.overlay2{
+	font-family: 'Montserrat', sans-serif;
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(64, 35, 16);
+  background: rgba(64,35,16, 0.8);; 
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 627px;
+}
+
+.box:hover .overlay1 {
+  opacity: 1;
+}
+
+.box:hover .overlay2 {
+  opacity: 1;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+	
+}
+
+#menu main i{
+	color: grey;
+	font-family: Verdana;
+	font-size: 1em;
+}
+
+#gallery td{
+	color: grey;
+}
+
+.salads-container{
+	background-image: url(../images/salads-container.jpg);
+	height: 200px;
+	width: 100%;
+	position:relative;
+}
+
+.expresso-coffee-container{
+	background-image: url(../images/expresso-coffee-container.jpg);
+	height: 200px;
+	width: 100%;
+	position: relative;
+}
+
+.special-drinks-container{
+	background-image: url(../images/special-drinks-container.png);
+	height: 200px;
+	width: 100%;
+	position: relative;
+}
+
+.salads-container h2, .expresso-coffee-container h2 , .special-drinks-container h2 {
+	text-align: center;
+	color: white;
+	text-shadow: -2px 1px 5px #000000b3;
+	line-height: 75px;
+  	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -90%);
+}
+
+.menu{
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	padding: 5px;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-items{
+	float: left;
+	width: 33.3%;
+}
+
+
+.drinks{
+	text-align: center;
+}
+
+.drinks-type{
+	width: 25%;
+	float: left;
+	transform: translate(100%, -50%);
+}
+
+#javacino{
+	margin-top: 60px;
+	transform: translate(-25%, 50%);
+}
+
+#smoothies{
+	margin-top: 60px;
+	transform: translate(-25%, 50%);
+}
+
+#frozen-chai{
+	margin-top: 60px;
+	transform: translate(-25%, 50%);
+}
+
+#cappuchino, #americano, #cafe-au-lait, #fresh-brewed, #mango-blackberry, #chrystal-tea{
+	padding-top: 10px;
+}
+
+#fresh-brewed-source{
+	margin-top: 65px;
+	transform: translate(-25%, 50%);
+}
+
+#mango-blackberry-source{
+	margin-top: 65px;
+	transform: translate(-25%, 50%);
+}
+
+#chrystal-tea-source{
+	margin-top: 65px;
+	transform: translate(-25%, 50%);
+}
+
+.menu-items-price{
+	font-family: Oswald, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-size: 13.5px;
+	background: white;
+	padding-left: 10px;
+}
+
+.menu-items-name{
+	font-family: 'Oswald', sans-serif;
+}
+
+span{
+	color: black !important;
+}
+
+.social-media{
+	color: #402310;
+}
+
+@media only screen and (max-width:480px){
+	#home-page{
+		margin: 0px;
+	}
+	
+	#images{
+		width: 70%;
+	}
+	
+	#images img{
+    	border: 1px solid #ddd;
+    	border-radius: 4px; 
+    	padding: 2px;
+    	width: 150px;
+		height: 100px;
+	}
+	
+	.col-4{
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width:480px) and (max-width:768px){
+	
+}
+
+@media only screen and (min-width:769px){
+	
+}
